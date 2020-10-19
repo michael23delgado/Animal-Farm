@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+h2 {
+    color: #4b4242;
+}
+body{
+  font-family: 'Dancing Script';
+   font: bold 90%;
+  font-size: 25px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-image: url(Photos/animal.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+#container  {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    opacity: .9;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+    
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    display: flex ;
+    flex-direction: row ;
+    font-size: 30px;
+    flex-wrap: wrap ;
+    justify-content: space-around ;
+    align-items: center ;
+    align-content: center ;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+}
+.nav ul li a:hover {
+    color: whitesmoke;
+}
+.nav {
+    margin-top: 10px;
+    height: 40px;
+    background: #a7e0ee;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.headerbreak {
+    width: 100%;
+    height:0;
+    border-bottom: 2px solid #a7e0ee;
+}
+h2, p {
+    font-family: 'Commissioner', sans-serif;
+}
+table, td, th {
+    border: 1px solid pink;
+    border-style: dotted;
+    position: relative;
+    text-align: center;
+    }
+th {
+    text-shadow: 2px 2px pink;
+    font-size: 40px;
+    background-color: dodgerblue;
+    text-decoration: underline wavy white;
+}
+td {
+    font-size: 28px;
+    background-color: powderblue;
+}
+.opaca {
+    width:100%;
+    height:530px;
+    background-color: whitesmoke;
+}
+
+
+
+.background {
+    background-image: url(Photos/contexto.jpg);
+}
